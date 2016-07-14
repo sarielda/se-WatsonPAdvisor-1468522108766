@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: se-WatsonPAdvisor
+  host: se-WatsonPAdvisor
+  disk_quota: 1024M
+  services:
+  - se-WatsonPAdvisor-personality_insights
